@@ -1,0 +1,43 @@
+import turtle
+
+turtle.pensize(1)
+turtle.bgcolor('black')
+a=10
+turtle.speed(0)
+for i in range(13):
+    turtle.color('green')
+    turtle.penup()
+    turtle.goto(0,a)
+    turtle.pendown()
+    turtle.goto(a,0)
+    turtle.goto(0,-a)
+    turtle.goto(-a,0)
+    turtle.goto(0,a)
+    a=a+3
+    turtle.color('blue')
+    turtle.penup()
+    turtle.goto(0,a)
+    turtle.pendown()
+    turtle.goto(a,0)
+    turtle.goto(0,-a)
+    turtle.goto(-a,0)
+    turtle.goto(0,a)
+    a=a+3
+    turtle.color('yellow')
+    turtle.penup()
+    turtle.goto(0,a)
+    turtle.pendown()
+    turtle.goto(a,0)
+    turtle.goto(0,-a)
+    turtle.goto(-a,0)
+    turtle.goto(0,a)
+    a=a+3
+    turtle.color('red')
+    turtle.penup()
+    turtle.goto(0,a)
+    turtle.pendown()
+    turtle.goto(a,0)
+    turtle.goto(0,-a)
+    turtle.goto(-a,0)
+    turtle.goto(0,a)
+    a=a+3
